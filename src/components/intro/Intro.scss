@@ -16,10 +16,10 @@
         .imgContainer {
             width: 900px;
             height: 900px;
-            background-color: crimson;
+            background-color: $mainColor;
             border-radius: 50%;
             display: flex;
-            align-items: flex-end;
+            align-items: center;
             justify-content: center;
             float: right;
 
@@ -28,7 +28,7 @@
             }
 
             img {
-                height: 95%;
+                height: 80%;
                 margin-left: 100px;
 
                 @include mobile {
@@ -58,6 +58,7 @@
             h1 {
                 font-size: 60px;
                 margin: 10px 0;
+                color: black;
 
                 @include mobile {
                     font-size: 40px;
@@ -66,10 +67,12 @@
     
             h2 {
                 font-size: 35px;
+                color: grey;
             }
     
             h3 {
                 font-size: 30px;
+                color: grey;
 
                 @include mobile {
                     font-size: 20px;
