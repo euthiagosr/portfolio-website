@@ -6,7 +6,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">genius.</a>
+          <a href="#intro" className="logo">Need a solution?</a>
 
           <div className="itemContainer">
             <Person className="icon"/>
@@ -15,7 +15,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
 
           <div className="itemContainer">
             <Mail className="icon"/>
-            <span>euthiagosr@gmail.com</span>
+            <a href="mailto:euthiagosr@gmail.com">euthiagosr@gmail.com</a>
           </div>
 
         </div>
@@ -23,9 +23,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
 
         <div className="right">
           <div className="hamburguer" onClick={()=>setMenuOpen(!menuOpen)}>
-            <span className="lin1"></span>
-            <span className="lin2"></span>
-            <span className="lin3"></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </div>
       </div>
