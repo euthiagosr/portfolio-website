@@ -25,12 +25,15 @@ export default function Intro() {
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
                     <h1>Thiago Rodrigues</h1>
-                    <h3>Freelance <span ref={textRef}>Developer</span></h3>
+                    <h3>Freelance <span ref={textRef}></span></h3>
                 </div>
+                
+            </div>
+            <div className="arrow">
                 <a href="#portfolio">
                     <img src="assets/arrow-down.png" alt="" />
                 </a>
-            </div>
+            </div>            
         </div>
     )
 }
